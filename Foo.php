@@ -1,5 +1,10 @@
 <?php
-
+  /**
+   * Yeah Red cool
+   * 
+   * 
+   * 
+   */ 
   echo "Github";
   $var = "Git";
   echo $var; //this is comment
@@ -16,25 +21,25 @@
   }
   
   function tampil()
-	{
-		echo 'aji';
-		return 'santoso';
-	}
-
-	echo htmlspecialchars(tampil());
-	echo '<br><br>';
-
-	if (tampil() == 'santoso') {
-		# code...
-		echo 'berarti benar kayak c++';
-		echo "<br>";
-	}
-	function tampilParam($depan, $belakang)
-	{
-		return $depan . $belakang;
-	}
-
-	echo htmlspecialchars(tampilParam('aji','santoso'));
-
-	echo '<br><br>';
+  {
+    echo 'aji'; 
+    return 'santoso';
+  }
+  
+  echo htmlspecialchars(tampil());
+  echo '<br><br>';
+  if (tampil() == 'santoso') 
+  {
+    # code..
+    echo 'berarti benar kayak c++';
+    echo "<br>";
+  }
+  
+  function tampilParam($depan, $belakang)
+  {
+     return $depan . $belakang;
+  }
+  
+  echo htmlspecialchars(tampilParam('aji','santoso'));
+  echo '<br><br>';
 ?>
