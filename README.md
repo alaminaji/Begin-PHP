@@ -1,4 +1,4 @@
-Begin-PHP
+Begin-C++
 =========
 
-Me begin to learn PHP programming language. 
+Me begin to learn C++ programming language. 
